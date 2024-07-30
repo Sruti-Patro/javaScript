@@ -1,7 +1,7 @@
 1. https://tc39.es/ecma262/ is the original documentation for standard.
 2. == equality check is different from < > <= >= comparisions. In comparisions, null is treated as 0. 
 3. 2 types of data: primitive and non-primitive (based on how a variable is stored in memory and how it is retrieved)
-    a. primitive: 7 types , a copy of these value is send to us
+    a. primitive: 7 types , a copy of these value is send to us , change in that copy doesnt change that original value=stack re store huye
         String
         number
         boolean
@@ -9,10 +9,12 @@
         undefined
         symbol
         bigint
-    b. non-primitive: reference/address of the value is sent to us
+    b. non-primitive: reference/address of the value is sent to us , so change in the value is permanent = heap memory.
         array
         objects
         functions
 4. JavaScript is a dynamically typed language.
     That data types of variables are determined by the value they hold at runtime and can change throughout the program as we assign different values to them.
     user does not define the data type for the variable but desides the value/constant that the variable would hold.
+    REFER pic 1.1
+5. String interpolation : `${}`
