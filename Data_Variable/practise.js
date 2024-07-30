@@ -51,3 +51,6 @@ console.log(obj); //allowed
     i can make changes in the existing obj either add a new par or change the value of an existing key (line 44)
     this obj reference can not asign a new obj lie 47
 */
+
+console.table([s,n]);
+// console.table([variable1, variable2, ... , etc])
