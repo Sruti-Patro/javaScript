@@ -39,3 +39,6 @@ console.log(Boolean("")); //false
 console.log("------------------------");
 
 abc=256;
+let a="hi" , b="6";
+
+console.log(true , +true , +"" , +abc, +a, +b); // true 1 0 256 NaN 6
